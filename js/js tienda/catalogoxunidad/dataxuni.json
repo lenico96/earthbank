@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "nombre": "Zapatilla Negra Nike 5",
+        "precio": 13000,
+        "img": "media/tienda/collar.jpg",
+        "cantidad": 1
+        
+    },
+    {
+        "id": 2,
+        "nombre": "Zapatilla Negra Nike 4",
+        "precio": 14300,
+        "img": "media/tienda/collar.jpg",
+        "cantidad": 1
+        
+    },
+    {
+        "id": 3,
+        "nombre": "Zapatilla Blanca Nike 7",
+        "precio": 14000,
+        "img": "media/tienda/collar.jpg",
+        "cantidad": 1
+        
+    },
+    {
+        "id": 4,
+        "nombre": "Zapatilla Adidas celeste",
+        "precio": 10000,
+        "img": "media/tienda/collar.jpg",
+        "cantidad": 1
+        
+        
+    },
+    {
+        "id": 5,
+        "nombre": "Zapatilla Adidas Blanca",
+        "precio": 13500,
+        "img": "media/tienda/collar.jpg",
+        "cantidad": 1
+    }
+]

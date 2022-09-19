@@ -27,5 +27,5 @@ const getProduct = async () =>
     (error);
     }
 }
-//
+///
 getProduct()

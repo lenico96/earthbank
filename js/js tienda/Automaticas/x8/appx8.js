@@ -2,7 +2,7 @@ const semillasSecx8Automaticas = async () =>
 {
     try
     {
-        const response = await fetch("js/js tienda/Fotoperiodicas/x8/datax8.json");
+        const response = await fetch("js/js tienda/Automaticas/x8/datax8.json");
         const data = await response.json();
         mostrarSemillasx8Automaticas(data)
         

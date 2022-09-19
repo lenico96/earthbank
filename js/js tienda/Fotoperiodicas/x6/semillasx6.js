@@ -17,7 +17,7 @@ stockx6.forEach((producto) => {
     <h2>${producto.nombre}</h2>
     <p class="precioProducto">Precio:$ ${producto.precio}</p>
     
-    <button id="agregar${producto.id}" class="button">
+    <button id="agregar${producto.id}" class="BUTTON_TIENDA">
     <span class="button-content">AGREGAR <i class="fas fa-shopping-cart"></i></span>
 </button>
     

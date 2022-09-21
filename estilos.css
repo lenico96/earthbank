@@ -364,6 +364,7 @@ background: linear-gradient(0deg, rgba(135,209,188,1) 0%, rgba(158,45,172,1) 100
 .texto_info h1{
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
 }
 
 .texto_info p{
@@ -372,7 +373,8 @@ background: linear-gradient(0deg, rgba(135,209,188,1) 0%, rgba(158,45,172,1) 100
 }
 
 .media_cover{
-    width: 65%;
+    width: 100%;
+    margin-top: 50px;
     
     
 
@@ -778,287 +780,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         color: #000000;
     }
     
-    /*responsive*/
-    @media(max-width: 767px){
-      .footer-col{
-        width: 50%;
-        margin-bottom: 30px;
-    }
-    }
-    @media(max-width: 574px){
-      .footer-col{
-        width: 100%;
-    }
-    }
 
-
-/*responsive home masvendidas*/
-
-@media screen and (max-width:5000px){
-    #mobile_cover{
-        display: none;
-    }
-
-}
-
-
-@media screen and (max-width:1000px){
-
-
-
-#icon-menu{
-        display: block;
-        color: rgb(0, 0, 0);
-        font-size: 23px;
-        margin-top: 15px;
-    }
-
-
-.menu{
-    height: 0px;
-    position: absolute;
-    right: 20px;
-    top: 70px;
-    overflow: hidden;
-    z-index: 10;
-    transition: all 300ms;
-    
-
-}
-
-.menu nav ul{
-    padding: 20px 0px;
-    
-    flex-direction: column;
-    
-    
-}
-
-.menu nav ul li{
-    padding: 10px 40px; 
-    
-}
-
-.mostrar_menu{   /*clase manipulada por js*/
-    height: 235px;
-    background-color: #047736;
-
-}
-
-.producto{
-    width: 100px;
-    
-}
-
-.imgprod{
-    width: 100px;
-    
-}
-
-.boton-agregar{
-    background-color: rgb(22, 129, 201);
-    color: white;
-    font-size: 10px;
-    font-weight: 400;
-    
-    margin-left: 15px;
-    border: none;
-    
-    
-    cursor: pointer;
-}
-
-.producto h2{
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    
-}
-.producto p{
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-.precioProducto {
-    font-weight: 700;
-}
-
-#mobile_cover img{
-    display: none;
-}
-
-
-
-
-}
-
-@media (max-width:623px){
-    #mobile_cover{
-        display: none;
-    }
-    
-
-}
-
-
-
-
-@media (max-width:600px){
-    
-    header{
-        width:100%;
-        
-    }
-
-    section{
-        height:970px;
-        
-    
-}
-
-main{
-    width:600px;
-}
-
-.menu{
-    height: 0px;
-    position: absolute;
-    right: 20px;
-    top: 70px;
-    overflow: hidden;
-    z-index: 10;
-    transition: all 300ms;
-    
-
-}
-
-.menu nav ul{
-    padding-left: 5px;
-    padding-right: 5px;
-    
-    flex-direction: column;
-    
-    
-}
-
-.menu nav ul li{
-    padding: 10px 40px; 
-    text-align: center;
-    
-}
-
-.menu a{
-    font-size: 15px;
-    margin: 0;
-    
-}
-
-.mostrar_menu{   /*clase manipulada por js*/
-    height: 200px;
-    width: 150px;
-    background-color: #347caa;
-
-}
-
-
-    #mobile_cover{
-        display: block;
-    }
-    
-    .media_cover img{
-        display: none;
-    }
-
-    .logo img{
-        width: 150px;
-        margin-top: 10px;
-    }
-
-    .shop{
-        margin-bottom: 20px;
-    }
-
-    .texto_info h1{
-        font-size: 45px;
-        
-    }
-
-    .texto_info h3{
-        font-size: 20px;
-       
-        
-    }
-
-    .texto_info p{
-        width: 100%;
-        font-size: 15px;
-    }
-
-    .texto_info{
-        width: 60%;
-    }
-
-    .buttons_cover{
-        width: 100%;
-    }
-
-    .primary-button{
-        width: 10px;
-        font-size: 5px;
-    }
-
-    #servicios{
-        display: none;
-
-    }
-
-    #sec3 {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-column-gap: 13px;
-        grid-row-gap: 10px;
-        }
-        
-        .div1 { grid-area: 2 / 4 / 5 / 6; }
-        .div2 { grid-area: 2 / 1 / 2 / 6; }
-        .div3 { grid-area: 1 / 3 / 2 / 6; }
-        .div4 { grid-area: 5 / 1 / 6 / 6; }
-      
-        .div1 img{
-            display: none;
-        }
-
-    
-        .div3 h1{
-            font-size: 40px;
-            color: rgb(255, 255, 255);
-            
-            font-family: 'Francois One', sans-serif;
-            text-align:center;
-            margin-right: 500px;
-        }
-    
-        .div2 p{
-            font-size: 18px;
-            color: rgb(255, 255, 255);
-            text-align: center;
-            padding-top: 20px;
-            font-family: 'Proza Libre', sans-serif;
-        }
-
-        .logoearth-contacto{
-            display: none;
-        }
-
-    }
-    
-
-#titulo2 h1{
-    color: #641e99;
-}
 
 /*tienda */
 #contenedor-semillasx3 {
@@ -1445,3 +1167,298 @@ flex-wrap: wrap;
    
     text-decoration: none;
  }
+
+ /*responsive*/
+ @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+
+ 
+
+
+/*responsive home masvendidas*/
+
+@media screen and (min-width:951px){
+    .mobile_cover{
+        display: none;
+    }
+
+    
+
+}
+
+
+@media screen and (max-width:1350px){
+
+
+
+#icon-menu{
+      display: block;
+      color: rgb(0, 0, 0);
+      font-size: 23px;
+      margin-top: 15px;
+  }
+
+
+.menu{
+  height: 0px;
+  position: absolute;
+  right: 20px;
+  top: 70px;
+  overflow: hidden;
+  z-index: 10;
+  transition: all 300ms;
+  
+
+}
+
+.menu nav ul{
+  padding: 20px 0px;
+  
+  flex-direction: column;
+  
+  
+}
+
+.menu nav ul li{
+  padding: 10px 40px; 
+  
+}
+
+.mostrar_menu{   /*clase manipulada por js*/
+  height: 235px;
+  background-color: #047736;
+
+}
+
+.producto{
+  width: 100px;
+  
+}
+
+.imgprod{
+  width: 100px;
+  
+}
+
+.boton-agregar{
+  background-color: rgb(22, 129, 201);
+  color: white;
+  font-size: 10px;
+  font-weight: 400;
+  
+  margin-left: 15px;
+  border: none;
+  
+  
+  cursor: pointer;
+}
+
+.producto h2{
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  
+}
+.producto p{
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.precioProducto {
+  font-weight: 700;
+}
+
+
+
+
+
+}
+
+@media (max-width:950px){
+    .media_cover{
+        display: none;
+
+    }
+
+    .div3 { grid-area: 1 / 1 / 2 / 6; }
+    .div3 h1{
+        width: 100%;
+    }
+    .div2 { grid-area: 2 / 1 / 2 / 6; }
+    .div2 p{
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:959px){
+    .nosotrosimg{
+        display: none;
+    }
+}
+
+
+@media (max-width:600px){
+  
+  header{
+      width:100%;
+      
+  }
+
+  section{
+      height:970px;
+      
+  
+}
+
+main{
+  width:600px;
+}
+
+.menu{
+  height: 0px;
+  position: absolute;
+  right: 20px;
+  top: 70px;
+  overflow: hidden;
+  z-index: 10;
+  transition: all 300ms;
+  
+
+}
+
+.menu nav ul{
+  padding-left: 5px;
+  padding-right: 5px;
+  
+  flex-direction: column;
+  
+  
+}
+
+.menu nav ul li{
+  padding: 10px 40px; 
+  text-align: center;
+  
+}
+
+.menu a{
+  font-size: 15px;
+  margin: 0;
+  
+}
+
+.mostrar_menu{   /*clase manipulada por js*/
+  height: 200px;
+  width: 150px;
+  background-color: #347caa;
+
+}
+
+
+  #mobile_cover{
+      display: block;
+  }
+  
+  .media_cover img{
+      display: none;
+  }
+
+  .logo img{
+      width: 150px;
+      margin-top: 10px;
+  }
+
+  .shop{
+      margin-bottom: 20px;
+  }
+
+  .texto_info h1{
+      font-size: 45px;
+      
+  }
+
+  .texto_info h3{
+      font-size: 20px;
+     
+      
+  }
+
+  .texto_info p{
+      width: 100%;
+      font-size: 15px;
+  }
+
+  .texto_info{
+      width: 60%;
+  }
+
+  .buttons_cover{
+      width: 100%;
+  }
+
+  .primary-button{
+      width: 10px;
+      font-size: 5px;
+  }
+
+  #servicios{
+      display: none;
+
+  }
+
+  #sec3 {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-column-gap: 13px;
+      grid-row-gap: 10px;
+      }
+      
+      .div1 { grid-area: 2 / 4 / 5 / 6; }
+      .div2 { grid-area: 2 / 1 / 2 / 6; }
+      .div3 { grid-area: 1 / 3 / 2 / 6; }
+      .div4 { grid-area: 5 / 1 / 6 / 6; }
+    
+      .div1 img{
+          display: none;
+      }
+
+  
+      .div3 h1{
+          font-size: 40px;
+          color: rgb(255, 255, 255);
+          
+          font-family: 'Francois One', sans-serif;
+          text-align:center;
+          margin-right: 500px;
+      }
+  
+      .div2 p{
+          font-size: 18px;
+          color: rgb(255, 255, 255);
+          text-align: center;
+          padding-top: 20px;
+          font-family: 'Proza Libre', sans-serif;
+      }
+
+      .logoearth-contacto{
+          display: none;
+      }
+
+  }
+
+
+
+

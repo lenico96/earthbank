@@ -33,20 +33,8 @@ const stockProductos =
     
     
 },
-{
-    "id": 5,
-    "nombre": "Earth jaxk 47 x8",
-    "precio": 3500,
-    "img": 'media/destacado5.png',
-    "cantidad": 1
-},
-{
-    "id": 6,
-    "nombre": "Auto earth gorilla x3",
-    "precio": 3500,
-    "img": 'media/destacado6.png',
-    "cantidad": 1
-},
+
+
 
 
 

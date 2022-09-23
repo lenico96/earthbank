@@ -1839,7 +1839,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
   }
 
-  @media (max-width: 400px){
+  @media (max-width: 450px){
 
     
   
@@ -1850,12 +1850,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   
     section{
         width: 100%;
+        height: 854px;
         
     
   }
   
   main{
     width:100%;
+    
   }
   
   #icon-menu{
@@ -2065,7 +2067,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   /*SEC 3 NOSOTROS */
   
   .div1 img {
-      width: 150px;
+      width: 250px;
       
       
       
@@ -2073,8 +2075,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
   
     .div1 {
-      grid-area: 1/ 2 / 3 / 6;
-      margin-top: 600px;
+      grid-area: 1/1 / 5 / 6;
+      margin-bottom: 70px;
+      
       
     }
   

@@ -1616,8 +1616,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     
     .media_cover img{
         display: block;
-        margin-bottom: 180px;
-        width: 410px;
+        margin-bottom: 150px;
+        width: 350px;
      
     }
   
@@ -1633,8 +1633,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     .texto_info h1{
         padding-top: 180px;
         
-        font-size: 40px;
-        padding-left: 50px;
+        font-size: 45px;
+        padding-left: 10px;
         
     }
   
@@ -1647,9 +1647,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   
     .texto_info p{
         text-align:center;
-        width: 160%;
+        width: 140%;
         font-size: 18px;
-        padding-right: 50px;
+        padding-right: 10px;
         
 
         
@@ -1669,7 +1669,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .buttons_cover {
     margin-top: 80px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 10px;
     animation-name: zoomIn;
     animation-duration: 2s;        

@@ -15,12 +15,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
     
 }
 
@@ -34,7 +35,7 @@ body{
 }
 
 section{
-    height: 650px;
+    height: 768px;
     display: flex;
     justify-content: space-evenly;
     padding: 0 40px;
@@ -223,7 +224,7 @@ header ul li a{
 }
 
 .modal-carrito h3 {
-    color: royalblue;
+    color: rgb(179, 43, 161);
     padding-bottom: 5px;
 }
 .modal-carrito #carritoCerrar {
@@ -613,10 +614,6 @@ background: linear-gradient(0deg, rgba(135,209,188,1) 0%, rgba(15,129,241,1) 100
         margin-left: 50px;
     }
 
-    .div1 img:hover{
-        animation-name: pulse;
-        animation-duration: 2s;
-    }
 
     .div3 h1{
         font-size: 50px;
@@ -1165,7 +1162,835 @@ flex-wrap: wrap;
     text-decoration: none;
  }
 
- /*responsive*/
+/*tienda*/
+/*catalogo unidad*/
+
+#catalogo-xunidad{
+    display: grid;
+grid-template-columns: repeat(9, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 3px;
+grid-row-gap: 0px;
+grid-area: 2 / 2 / 5 / 10;
+padding-left: 50px;
+}
+
+#catalogo-xunidad h3{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-catalogo{
+    grid-area: 1/ 1 / 1 / 10;
+    
+
+}
+
+
+/*catalogo fotox3 */
+
+#contenedor-semillasx3{
+display: grid;
+grid-template-columns: repeat(9, 1fr);
+grid-template-rows: repeat(6, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 0px;
+padding-left: 50px;
+}
+
+
+
+#contenedor-semillasx3 h3{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-foto-x3{
+    grid-area: 3 / 1 / 1 / 13;
+}
+
+/*catalogo foto x4*/
+
+#contenedor-semillasx6{
+    display: grid;
+grid-template-columns: repeat(9, 1fr);
+grid-template-rows: repeat(6, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 0px;
+padding-left: 50px;
+
+}
+
+#contenedor-semillasx6 h3{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-foto-x4{
+    grid-area: 3 / 1 / 1 / 13;
+}
+
+/*foto x5*/
+#contenedor-semillasx8{
+    display: grid;
+grid-template-columns: repeat(9, 1fr);
+grid-template-rows: repeat(6, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 0px;
+padding-left: 50px;
+
+}
+
+#contenedor-semillasx8 h3{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-foto-x5{
+    grid-area: 3 / 1 / 1 / 13;
+}
+
+/*auto x3*/
+#contenedor-semillas-automaticasx3{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 0px;
+    padding-left: 50px;
+
+
+
+}
+
+#contenedor-semillas-automaticasx3 h3{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.titulo-auto-x3{
+    grid-area: 1 / 1 / 1 / 9;
+    
+}
+
+/*auto x4*/
+#contenedor-semillas-automaticasx6{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 0px;
+    padding-left: 50px;
+
+
+
+}
+
+#contenedor-semillas-automaticasx6 h3{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.titulo-auto-x4{
+    grid-area: 1 / 1 / 1 / 9;
+    
+}
+
+/*auto x5*/
+#contenedor-semillas-automaticasx8{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 0px;
+    padding-left: 50px;
+
+
+
+}
+
+#contenedor-semillas-automaticasx8 h3{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.titulo-auto-x5{
+    grid-area: 1 / 1 / 1 / 9;
+    
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 960px){
+
+    
+  
+    header{
+        width:100%;
+        
+    }
+  
+    section{
+        width: 100%;
+        height: 960px;
+        
+    
+  }
+  
+  main{
+    width:100%;
+    
+  }
+  
+  #icon-menu{
+      display: block;
+      font-size: 20px;
+      margin: auto;
+      padding-right: 15px;
+      cursor: pointer;
+  }
+  
+  #boton-carrito{
+      border: none;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  background-color: white;
+  border-radius: 200%;
+  margin-right: 12px;
+  padding: 8px 8px;
+  transition: all .3s;
+  }
+  
+  .btn {
+      padding: 5px 5px 5px 5px; 
+      background: none;
+      border: 1px solid rgb(255, 255, 255);
+      font-size: 15px;
+      color: #131313;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s;
+      border-radius: 5px;
+      background: rgb(135,209,188);
+      background: linear-gradient(0deg, rgba(135,209,188,1) 0%, rgba(158,45,172,1) 100%);
+      margin: 10px 20px 10px 30px; 
+      
+      
+      box-shadow: 0 2px 0 2px #000;
+     }
+     
+     
+     
+     .btn:hover {
+      background-color: #984ab0;
+      color: #fff;
+      box-shadow: 0 2px 0 2px #373839;
+     }
+     
+     
+     
+     .btn:active {
+      transform: scale(0.9);
+     }
+  
+  .menu{
+    height: 0px;
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    overflow: hidden;
+    z-index: 10;
+    transition: all 300ms;
+    
+  
+  }
+  
+  .menu nav ul{
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    flex-direction: column;
+    
+    
+  }
+  
+  .menu nav ul li{
+    padding: 10px 40px; 
+    text-align: center;
+    
+  }
+  
+  .menu a{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    
+  }
+  
+  .mostrar_menu{  
+    height: 170px;
+    width: 170px;
+    background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+  }
+
+  
+.cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    
+}
+  
+  
+    .mobile_cover{
+        display: none;
+        
+
+    }
+    
+    .media_cover img{
+    
+    max-width:100% !important;
+    
+    display:block;
+    margin-bottom: 180px;
+     
+    }
+  
+    .logo img{
+        width: 200px;
+        margin-top: 10px;
+    }
+  
+    .shop{
+        margin-bottom: 20px;
+    }
+  
+    .texto_info h1{
+        padding-top: 240px;   
+        font-size: 50px;
+        padding-left: 10px;
+        
+    }
+  
+    .texto_info h3{
+        font-size: 20px;
+        padding-left: 10px;
+       
+        
+    }
+  
+    .texto_info p{
+        text-align:center;
+        width: 140%;
+        font-size: 18px;
+        padding-right: 10px;
+        
+
+        
+        
+    }
+  
+    .texto_info{
+        width: 70%;
+    }
+  
+  
+    .primary-button{
+        width: 100px;
+        font-size: 10px;
+        
+        }
+
+.buttons_cover {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    
+    
+
+  
+          }
+  
+    #servicios{
+        display: none;
+  
+    }
+  
+  
+  .logoearth-contacto{
+            display: none;
+        }
+  
+  /*RESPONSIVE SEC2 DESTACADOS */
+  
+        .producto{
+          width: 100px;
+          
+        }
+        
+        .imgprod{
+          width: 100px;
+          
+        }
+        
+        .boton-agregar{
+          background-color: rgb(22, 129, 201);
+          color: white;
+          font-size: 10px;
+          font-weight: 400;
+          
+          margin-left: 15px;
+          border: none;
+          
+          
+          cursor: pointer;
+        }
+        
+        .producto h2{
+          font-size: 10px;
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          
+        }
+        .producto p{
+          font-size: 10px;
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+        }
+        .precioProducto {
+          font-weight: 700;
+        }
+  
+  /*SEC 3 NOSOTROS */
+  
+  .div1 img {
+      width: 255px;
+      
+      
+      
+      
+      
+      
+    }
+  
+    .div1 {
+        grid-area: 4/ 2 / 3 / 6;
+        margin-bottom: 70px;
+      
+      
+      
+    }
+  
+  
+  .div2{
+      font-size: 12px;
+      
+      display: block;
+      grid-area: 2 / 1 / 2 / 6;
+  }
+  
+  .tituloh1{   
+      display: block;
+      
+      
+      
+  }
+  
+  .div3 h1{
+      display: block;
+      
+      font-size: 40px;
+      color: rgb(255, 255, 255);
+      margin-top: 90px;
+      font-family: 'Francois One', sans-serif;
+      text-align:center;
+      
+      
+  }
+
+/* formulario */
+.formulario{
+    padding: 10px 50px 10px 50px;
+    margin-top: 50px;
+    
+    background: rgba( 124, 201, 194, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#catalogo-xunidad h3{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+}
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+ @media (max-width: 860px){
+
+    
+  
+    header{
+        width:100%;
+        
+    }
+  
+    section{
+        width: 100%;
+        height: 900px;
+        
+    
+  }
+  
+  main{
+    width:100%;
+    
+  }
+  
+  #icon-menu{
+      display: block;
+      font-size: 30px;
+      margin-right: 120px;
+      padding-right: 15px;
+      cursor: pointer;
+  }
+  
+  #boton-carrito{
+      border: none;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  background-color: white;
+  border-radius: 200%;
+  margin-right: 12px;
+  padding: 8px 8px;
+  transition: all .3s;
+  margin-left: 50px;
+  }
+  
+  .btn {
+      padding: 5px 5px 5px 5px; 
+      background: none;
+      border: 1px solid rgb(255, 255, 255);
+      font-size: 15px;
+      color: #131313;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s;
+      border-radius: 5px;
+      background: rgb(135,209,188);
+      background: linear-gradient(0deg, rgba(135,209,188,1) 0%, rgba(158,45,172,1) 100%);
+      margin: 10px 20px 10px 80px; 
+      
+      
+      box-shadow: 0 2px 0 2px #000;
+     }
+     
+     
+     
+     .btn:hover {
+      background-color: #984ab0;
+      color: #fff;
+      box-shadow: 0 2px 0 2px #373839;
+     }
+     
+     
+     
+     .btn:active {
+      transform: scale(0.9);
+     }
+  
+  .menu{
+    height: 0px;
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    overflow: hidden;
+    z-index: 10;
+    transition: all 300ms;
+    
+  
+  }
+  
+  .menu nav ul{
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    flex-direction: column;
+    
+    
+  }
+  
+  .menu nav ul li{
+    padding: 10px 40px; 
+    text-align: center;
+    
+  }
+  
+  .menu a{
+    font-size: 15px;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    
+  }
+  
+  .mostrar_menu{  
+    height: 170px;
+    width: 150px;
+    background: rgba(50, 45, 45, 0.15);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+  }
+
+  
+.cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    
+}
+  
+  
+    .mobile_cover{
+        display: none;
+        
+
+    }
+    
+    .media_cover img{
+    
+    max-width:100% !important;
+    max-height:80% !important;
+    display:block;
+    margin-bottom: 170px;
+    
+     
+    }
+  
+    .logo img{
+        width: 150px;
+        margin-top: 10px;
+    }
+  
+    .shop{
+        margin-bottom: 20px;
+    }
+  
+    .texto_info h1{
+        padding-top: 230px;   
+        font-size: 50px;
+        padding-left: 10px;
+        
+    }
+  
+    .texto_info h3{
+        font-size: 20px;
+        padding-left: 10px;
+       
+        
+    }
+  
+    .texto_info p{
+        text-align:center;
+        width: 140%;
+        font-size: 18px;
+        padding-right: 10px;
+        
+
+        
+        
+    }
+  
+    .texto_info{
+        width: 70%;
+    }
+  
+  
+    .primary-button{
+        width: 100px;
+        font-size: 10px;
+        
+        }
+
+.buttons_cover {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    
+    
+        
+          }
+          
+         
+  
+  .logoearth-contacto{
+            display: none;
+        }
+  
+  /*RESPONSIVE SEC2 DESTACADOS */
+  
+        .producto{
+          width: 100px;
+          
+        }
+        
+        .imgprod{
+          width: 100px;
+          
+        }
+        
+        .boton-agregar{
+          background-color: rgb(22, 129, 201);
+          color: white;
+          font-size: 10px;
+          font-weight: 400;
+          
+          margin-left: 15px;
+          border: none;
+          
+          
+          cursor: pointer;
+        }
+        
+        .producto h2{
+          font-size: 10px;
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          
+        }
+        .producto p{
+          font-size: 10px;
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+        }
+        .precioProducto {
+          font-weight: 700;
+        }
+  
+  /*SEC 3 NOSOTROS */
+  
+  .div1 img {
+      width: 255px;
+      
+      
+      
+      
+      
+      
+    }
+  
+    .div1 {
+        grid-area: 4/ 2 / 3 / 6;
+        margin-bottom: 70px;
+      
+      
+      
+    }
+  
+  
+  .div2{
+      font-size: 12px;
+      
+      display: block;
+      grid-area: 2 / 1 / 2 / 6;
+  }
+  
+  .tituloh1{   
+      display: block;
+      
+      
+      
+  }
+  
+  .div3 h1{
+      display: block;
+      
+      font-size: 40px;
+      color: rgb(255, 255, 255);
+      margin-top: 90px;
+      font-family: 'Francois One', sans-serif;
+      text-align:center;
+      
+      
+  }
+
+/* formulario */
+.formulario{
+    padding: 10px 50px 10px 50px;
+    margin-top: 50px;
+    
+    background: rgba( 124, 201, 194, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#catalogo-xunidad h3{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+}
+
+ /*responsive footer*/
  @media(max-width: 767px){
     .footer-col{
       width: 50%;
@@ -1192,7 +2017,7 @@ flex-wrap: wrap;
 
   section{
       width: 100%;
-      height: 854px;
+      height: 880px;
       
   
 }
@@ -1210,7 +2035,7 @@ main{
 #boton-carrito{
     border: none;
 color: rgb(31, 44, 86);
-font-size: 15px;
+font-size: 20px;
 background-color: white;
 border-radius: 400%;
 padding: 8px 8px;
@@ -1296,13 +2121,20 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 }
 
+.modal-carrito {
+    z-index: 100;
+    position: relative;
+    background-color: white;
+    min-width: 350px;
+    padding: 20px;
+    margin-top: -100%;
+    transition: all .5s;
+}
 
-  .mobile_cover{
-      display: block;
-      padding-left: 10px;
-      margin-top: 50px;
-      width: 190px;
-  }
+.modal-carrito p{
+    font-size: 13px;
+}
+
 
   .cover{
     display: flex;
@@ -1313,9 +2145,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
   
   .media_cover img{
-      width: 450px;
-      display: block;
-      padding-bottom: 160px;
+    max-width:100% !important;
+    max-height:100% !important;
+    display:block;
+    margin-bottom: 390px;
   }
 
   .logo img{
@@ -1337,20 +2170,21 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
   .texto_info h3{
       font-size: 18px;
-      padding-left: 35px;
+      padding-left: 10px;
      
       
   }
 
   .texto_info p{
     text-align: center;
-      width: 100%;
+      width: 95%;
       font-size: 18px;
 
       
       
   }
 
+ 
   .texto_info {
     text-align: center;
       width: 100%;
@@ -1362,13 +2196,19 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
       
       
   }
+.botonllermas{
+    display: flex;
+    justify-content:left
+}
+
 
   .buttons_cover {
-    margin-right: 70px;
-    margin-top: 10px;
-    animation-name: zoomIn;
-    animation-duration: 2s;        
-          }
+    width: 75%;
+    display: flex;
+    justify-content:center;
+   
+     
+}
 
 
 
@@ -1434,7 +2274,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 /*SEC 3 NOSOTROS */
 
 .div1 img {
-    width: 180px;
+    width: 250px;
     
     
     
@@ -1442,7 +2282,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
 
   .div1 {
-    grid-area: 1/ 2 / 3 / 6;
+    grid-area: 1/ 1 / 5 / 6;
     margin-top: 600px;
     
   }
@@ -1471,6 +2311,15 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     text-align:center;
     
     
+}
+
+#catalogo-xunidad h3{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+
 }
 
 
@@ -1580,6 +2429,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
   
   .menu a{
+    color: rgb(255, 255, 255);
     font-size: 15px;
     margin: 0;
     font-family: 'Oswald', sans-serif;
@@ -1615,12 +2465,13 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
     
     .media_cover img{
-        display: block;
-        margin-bottom: 150px;
-        width: 350px;
-     
+        max-width:100% !important;
+        max-height:95% !important;
+        display:block;
+        margin-left: 20px;
     }
-  
+
+
     .logo img{
         width: 150px;
         margin-top: 10px;
@@ -1631,16 +2482,16 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
   
     .texto_info h1{
-        padding-top: 180px;
+        padding-top: 190px;
         
-        font-size: 45px;
-        padding-left: 10px;
+        font-size: 40px;
+        padding-left: 30px;
         
     }
   
     .texto_info h3{
-        font-size: 15px;
-        padding-left: 10px;
+        font-size: 14px;
+        padding-left: 90px;
        
         
     }
@@ -1668,12 +2519,12 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         }
 
 .buttons_cover {
-    margin-top: 80px;
-    margin-left: 10px;
-    margin-top: 10px;
-    animation-name: zoomIn;
-    animation-duration: 2s;        
+    width: 100%;
+    display: flex;
+    justify-content:center;       
           }
+
+
   
     #servicios{
         display: none;
@@ -1783,7 +2634,67 @@ border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+#catalogo-xunidad h3{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+
 }
+
+#contenedor-semillasx3 h3{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor-semillasx6 h3{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor-semillasx8 h3{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor-semillas-automaticasx3 h3{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+#contenedor-semillas-automaticasx6 h3{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+#contenedor-semillas-automaticasx8 h3{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+ }
 
 
 

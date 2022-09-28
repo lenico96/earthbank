@@ -2696,6 +2696,378 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
  }
 
+ @media (max-width: 402px){
+
+    
+  
+    header{
+        width:100%;
+        
+    }
+  
+    section{
+        width: 100%;
+        height: 854px;
+        
+    
+  }
+  
+  main{
+    width:100%;
+    
+  }
+  
+  #icon-menu{
+      display: block;
+      font-size: 20px;
+      margin: auto;
+      padding-right: 15px;
+      cursor: pointer;
+  }
+  
+  #boton-carrito{
+      border: none;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  background-color: white;
+  border-radius: 200%;
+  margin-right: 12px;
+  padding: 8px 8px;
+  transition: all .3s;
+  }
+  
+  .btn {
+      padding: 5px 5px 5px 5px; 
+      background: none;
+      border: 1px solid rgb(255, 255, 255);
+      font-size: 15px;
+      color: #131313;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s;
+      border-radius: 5px;
+      background: rgb(135,209,188);
+      background: linear-gradient(0deg, rgba(135,209,188,1) 0%, rgba(158,45,172,1) 100%);
+      margin: 10px 20px 10px 30px; 
+      
+      
+      box-shadow: 0 2px 0 2px #000;
+     }
+     
+     
+     
+     .btn:hover {
+      background-color: #984ab0;
+      color: #fff;
+      box-shadow: 0 2px 0 2px #373839;
+     }
+     
+     
+     
+     .btn:active {
+      transform: scale(0.9);
+     }
+  
+  .menu{
+    height: 0px;
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    overflow: hidden;
+    z-index: 10;
+    transition: all 300ms;
+    
+  
+  }
+  
+  .menu nav ul{
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    flex-direction: column;
+    
+    
+  }
+  
+  .menu nav ul li{
+    padding: 10px 40px; 
+    text-align: center;
+    
+  }
+  
+  .menu a{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    
+  }
+  
+  .mostrar_menu{  
+    height: 170px;
+    width: 150px;
+    background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+  }
+
+  
+.cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px; margin-bottom: 30px;
+    
+}
+  
+  
+    .mobile_cover{
+        display: none;
+        
+
+    }
+    
+    .media_cover img{
+        max-width:100% !important;
+        max-height:95% !important;
+        display:block;
+        margin-left: 20px;
+        
+    }
+
+
+    .logo img{
+        width: 150px;
+        margin-top: 10px;
+    }
+  
+    .shop{
+        margin-bottom: 20px;
+    }
+  
+    .texto_info h1{
+        padding-top: 250px;
+        margin: auto;
+        
+        font-size: 45px;
+        padding-left: 30px;
+        
+    }
+  
+    .texto_info h3{
+        font-size: 12px;
+        padding-left: 90px;
+        margin: auto;
+       
+        
+    }
+  
+    .texto_info p{
+        text-align:center;
+        width: 140%;
+        font-size: 20px;
+        padding-top: 40px;
+        padding-right: 10px;
+        margin: auto;
+        
+
+        
+        
+    }
+  
+    .texto_info{
+        width: 70%;
+    }
+  
+  
+    .primary-button{
+        width: 100px;
+        font-size: 10px;
+        
+        }
+
+.buttons_cover {
+    width: 100%;
+    display: flex;
+    justify-content:center;       
+          }
+
+
+  
+    #servicios{
+        display: none;
+  
+    }
+  
+  
+  .logoearth-contacto{
+            display: none;
+        }
+  
+  /*RESPONSIVE SEC2 DESTACADOS */
+  
+        .producto{
+          width: 100px;
+          
+        }
+        
+        .imgprod{
+          width: 100px;
+          
+        }
+        
+        .boton-agregar{
+          background-color: rgb(22, 129, 201);
+          color: white;
+          font-size: 10px;
+          font-weight: 400;
+          
+          margin-left: 15px;
+          border: none;
+          
+          
+          cursor: pointer;
+        }
+        
+        .producto h2{
+          font-size: 10px;
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          
+        }
+        .producto p{
+          font-size: 10px;
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+        }
+        .precioProducto {
+          font-weight: 700;
+        }
+  
+  /*SEC 3 NOSOTROS */
+  
+  .div1 img {
+      width: 250px;
+      
+      
+      
+      
+    }
+  
+    .div1 {
+      grid-area: 1/1/ 5 / 6;
+      margin-bottom: 80px;
+      
+      
+    }
+  
+  
+  .div2{
+      font-size: 10px;
+      
+      display: block;
+      grid-area: 2 / 1 / 2 / 6;
+  }
+  
+  .tituloh1{   
+      display: block;
+      
+      
+  }
+  
+  .div3 h1{
+      display: block;
+      
+      font-size: 30px;
+      color: rgb(255, 255, 255);
+      margin-top: 90px;
+      font-family: 'Francois One', sans-serif;
+      text-align:center;
+      
+      
+  }
+
+/* formulario */
+.formulario{
+    padding: 10px 50px 10px 50px;
+    margin-top: 50px;
+    
+    background: rgba( 124, 201, 194, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#catalogo-xunidad h3{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+#contenedor-semillasx3 h3{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor-semillasx6 h3{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor-semillasx8 h3{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor-semillas-automaticasx3 h3{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+#contenedor-semillas-automaticasx6 h3{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+#contenedor-semillas-automaticasx8 h3{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+ }
 
 
 
